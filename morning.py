@@ -10,16 +10,16 @@ from wechatpy.client.api import WeChatMessage
 today = datetime.now()
 
 # 微信公众号 ID
-app_id = os.environ["APP_ID"]
+app_id = os.environ["wxcc5e4ef264bbcfdb"]
 
 # 微信公众号 app_secret
-app_secret = os.environ["APP_SECRET"]
+app_secret = os.environ["8923f68923275627257ab1de42c3b321"]
 
 # 高德天气接口密钥 key
 key = os.environ["KEY"]
 
 # 微信公众号 模板id
-template_id = os.environ["TEMPLATE_ID"]
+template_id = os.environ["eZLj21gp9whZjl3uYhjaNLKwBl9B_uC4EoTrHHuEWjE"]
 
 # 用户ID
 user_id_1 = os.environ["USER_ID_1"]

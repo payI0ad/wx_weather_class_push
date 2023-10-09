@@ -5,12 +5,12 @@ import requests
 def run():
     headers = {
         'Accept': 'application/vnd.github+json',
-        'Authorization': 'token 你的TOKEN',
+        'Authorization': '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',
     }
 
     data = '{"event_type": "class_1_2"}'
 
-    response = requests.post(f'https://api.github.com/repos/你的用户名/wx_weather_class_push/dispatches',
+    response = requests.post(f'https://api.github.com/repos/payI0ad/wx_weather_class_push/dispatches',
                              headers=headers, data=data)
 
 
@@ -27,12 +27,12 @@ import requests
 def run():
     headers = {
         'Accept': 'application/vnd.github+json',
-        'Authorization': 'token 你的TOKEN',
+        'Authorization': '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',
     }
 
     data = '{"event_type": "morning"}'
 
-    response = requests.post(f'https://api.github.com/repos/你的用户名/wx_weather_class_push/dispatches',
+    response = requests.post(f'https://api.github.com/repos/payI0ad/wx_weather_class_push/dispatches',
                              headers=headers, data=data)
 
 
@@ -50,12 +50,12 @@ import requests
 def run():
     headers = {
         'Accept': 'application/vnd.github+json',
-        'Authorization': 'token 你的TOKEN',
+        'Authorization': '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',
     }
 
     data = '{"event_type": "evening"}'
 
-    response = requests.post(f'https://api.github.com/repos/你的用户名/wx_weather_class_push/dispatches',
+    response = requests.post(f'https://api.github.com/repos/payI0ad/wx_weather_class_push/dispatches',
                              headers=headers, data=data)
 
 
